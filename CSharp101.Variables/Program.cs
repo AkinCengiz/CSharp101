@@ -142,6 +142,12 @@
             {
                 Console.WriteLine("Numbers2 dizisi : " + i);
             }
+
+            double pi = 3.14;
+
+            int kisaKenar = 15;
+            int uzunKenar = 20;
+            string[] cities = new string[] { "İstanbul", "Ankara" };
         }
     }
 }
