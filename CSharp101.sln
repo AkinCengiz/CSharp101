@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp101.ConvertToType", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp101.ConvertExample", "CSharp101.ConvertExample\CSharp101.ConvertExample.csproj", "{7B3B6BA3-FA3C-443C-A8C3-2C0FBEC2B0CA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ders3", "Ders3", "{E4B59D9B-0B46-42E3-A8A8-20A1C6ABD52A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp101.Operators", "CSharp101.Operators\CSharp101.Operators.csproj", "{D0D375ED-0C0F-40F5-B01A-2DEB85F4E698}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,10 @@ Global
 		{7B3B6BA3-FA3C-443C-A8C3-2C0FBEC2B0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B3B6BA3-FA3C-443C-A8C3-2C0FBEC2B0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B3B6BA3-FA3C-443C-A8C3-2C0FBEC2B0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D375ED-0C0F-40F5-B01A-2DEB85F4E698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D375ED-0C0F-40F5-B01A-2DEB85F4E698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D375ED-0C0F-40F5-B01A-2DEB85F4E698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D375ED-0C0F-40F5-B01A-2DEB85F4E698}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +56,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A3D5B1FB-9EEF-4407-A893-3BE927C5B15D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{7B3B6BA3-FA3C-443C-A8C3-2C0FBEC2B0CA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D0D375ED-0C0F-40F5-B01A-2DEB85F4E698} = {E4B59D9B-0B46-42E3-A8A8-20A1C6ABD52A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {552FEF82-C24E-4F7A-AEAB-9F07B9565766}
