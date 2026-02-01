@@ -1,5 +1,6 @@
 ﻿//OPERATÖRLER
 //Aritmetiksel Operatörler
+//Binary operators
 // + : Toplama, - : Çıkarma, * : Çarpma, / : Bölme, % : Mod alma
 
 using System.ComponentModel;
@@ -113,4 +114,62 @@ sonuc = (x < y) && (y < z);
 // Ve işlemi için her iki ifadenin de doğru olması gerekir. Ve işleminde bir ifade yanlış ise sonuç yanlış olur.
 sonuc = (x < y) && (y > z) && (t < z);
 
-Console.WriteLine("Sonuç : " + sonuc);
+
+int vize1 = 75;
+int vize2 = 85;
+int final = 55;
+
+double ortalama = (vize1 + vize2) / 2 * 0.4 + final * 0.6;
+
+sonuc = (ortalama >= 60) && (final >= 50);
+//a < b && c < d && e < f && ... gibi uzatılabilir. Bir den fazla koşulun aynı anda sağlanması gerektiğinde kullanılır. Bir tanesi bile sağlanmazsa sonuç false olur.
+//a < b || c < d || e < f || ... gibi uzatılabilir. Bir koşulun sağlanması yeterlidir. Tüm koşullar false ise sonuç false olur.
+
+//ternary operator (üçlü operatör)
+// koşul ? doğru ise yapılacak işlem : yanlış ise yapılacak işlem
+
+string gectiMi = sonuc ? "Geçti" : "Kaldı";
+
+//!Değil operatörü
+bool deneme = !(x < z) ? true : false;
+
+Console.WriteLine("Ortalama : " + ortalama +"\nSonuç : " + gectiMi);
+
+Console.WriteLine($"x : {x} < {z} mi?");
+Console.WriteLine("Deneme : " + deneme);
+
+
+int gün = 12;
+
+// 0 : Pazartesi, 1 : Salı, 2 : Çarşamba, 3 : Perşembe, 4 : Cuma, 5 : Cumartesi, 6 : Pazar
+string haftaSonu = !((gün % 7) < 5) ? "Hafta içi" : "Hafta sonu";
+Console.WriteLine("Gün : " + gün + " -> " + haftaSonu);
+
+//Artırma ve Azaltma Operatörleri
+// ++ : Artırma, -- : Azaltma
+//Unary operators
+
+int sayi = 5;
+Console.WriteLine("Başlangıç sayi : " + sayi);
+sayi = sayi + 1;
+Console.WriteLine("Sayi : " + sayi);
+sayi++; // sayi = sayi + 1 ile aynı
+Console.WriteLine("Sayi : " + sayi);
+
+sayi = sayi - 1;
+Console.WriteLine("Sayi : " + sayi);
+sayi--; // sayi = sayi - 1 ile aynı
+Console.WriteLine("Sayi : " + sayi);
+
+++sayi; // Önce artırır sonra kullanır
+Console.WriteLine("Sayi : " + sayi);
+--sayi; // Önce kullanır sonra azaltır
+Console.WriteLine("Sayi : " + sayi);
+
+int sayiA = sayi++;
+Console.WriteLine("Sayi : " + sayi);
+Console.WriteLine("SayiA : " + sayiA); // sayiA = 6
+int sayiB = ++sayi;
+Console.WriteLine("Sayi : " + sayi);
+Console.WriteLine("SayiB : " + sayiB); // sayiA = 6
+
