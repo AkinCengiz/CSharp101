@@ -15,4 +15,16 @@ internal class Kus
     {
         Console.WriteLine("Cik Cik Cik");
     }
+
+    public Kus(string cins, bool ucuyorMu, double kanat)
+    {
+        this.Cinsi = cins;
+        this.UcuyorMu = ucuyorMu;
+        this.KanatUzunlugu = kanat;
+    }
+
+    public Kus()
+    {
+
+    }
 }

@@ -37,3 +37,7 @@ decimal mesaj = urun.FiyatBilgisi();
 Bos bos = new Bos();
 
 urun3.UrunBilgisi();
+
+Musteri musteri = new Musteri();
+
+Kus kus = new Kus();
